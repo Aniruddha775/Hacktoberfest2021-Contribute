@@ -1,7 +1,3 @@
-<div align="centre">
-    <b> contribute in c folder or make new as for preferred language</b>
-</div>
-
 
 <h1 align="center">Welcome To</h1>
 <h1 align="center">🎃 Hacktoberfest Repository</h1>
