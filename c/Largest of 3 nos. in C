@@ -1,0 +1,22 @@
+#include<stdio.h>
+    int main()
+    {
+    int no1,no2,no3;
+    
+    //Prompt user to insert any three integer variables
+    printf(“\nInsert value of no1, no2 and no3:”);
+    scanf(“%d %d %d”, &no1, &no2, &no3);
+
+    //for check of number 1 is greater   
+    if((no1 > no2) && (no1 > no3))
+        printf(“\n Number1 is greatest”);
+
+    //weather number 2 is grater 
+    else if((no2 > no3) && (no2 > no1)) 
+        printf(“\n Number2 is greatest”);
+
+    //other conditions are false than number 3 is greater 
+    else 
+        printf(“\n Number3 is greatest”); 
+    return 0; 
+    }
