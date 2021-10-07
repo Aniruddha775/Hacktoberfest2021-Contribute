@@ -26,6 +26,15 @@
 </div>
 
 
+### 🗣 Hacktoberfest encourages participation in the open source community, which grows bigger every year. Complete the 2021 challenge and earn a limited edition T-shirt.
+
+📢 **Register [here](https://hacktoberfest.digitalocean.com) for Hacktoberfest and make four pull requests (PRs) between October 1st-31st to grab free SWAGS 🔥.**
+
+
+> Upload your code in this repository to particular section if folder is not present then create folder.
+> some more repos for contribution
+
+
 # Steps for Contributing:
 
 1. Fork this Repo and star it.
