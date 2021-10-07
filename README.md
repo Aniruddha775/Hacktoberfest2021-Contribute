@@ -4,7 +4,7 @@
 
 
 <h1 align="center">Welcome To</h1>
-<h1 align="center">🎃 Hacktoberfest Repository</h1>
+<h1 align="center" style="background-color:powderblue;">🎃 Hacktoberfest Repository</h1>
 
 **This is a Hacktoberfest Repo and it is for begineer/intermediate programmers to contribute in this repository and make 4PR's to earn a T-shirt.**
 
