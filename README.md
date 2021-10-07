@@ -42,7 +42,7 @@
 ---
 
 
-#Steps for Contribution
+# Steps for Contribution
 
     1. Fork this Repo and star it.
     2. Add the program file given in the [Issues](https://github.com/Aniruddha775/Hacktoberfest2021-Contribute/issues) tab in the specified language folder.
