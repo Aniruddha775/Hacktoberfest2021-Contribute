@@ -47,7 +47,7 @@
 
 | Serial No. | Repository| Link to Issue  | Language |
 |:--|:--|:--|:--|
-| 1. | [C](https://github.com/Aniruddha775/Hacktoberfest2021-Contribute/tree/main/c) | [Add More Inspirational Quotes](https://github.com/Aniruddha775/Hacktoberfest2021-Contribute/issues)  | `C`  |
+| 1. | [C](https://github.com/Aniruddha775/Hacktoberfest2021-Contribute/tree/main/c) | [Add More Answers Related To C ](https://github.com/Aniruddha775/Hacktoberfest2021-Contribute/issues)  | `C`  |
 
 
 # Steps for Contribution
