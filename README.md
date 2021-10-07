@@ -41,13 +41,19 @@
 
 # Steps for Contributing:
 
-1. Fork this Repo and star it.
+1. ***Fork*** this Repo and ***Star*** it.
 2. Add the program file given in the [Issues](https://github.com/Aniruddha775/Hacktoberfest2021-Contribute/issues) tab in the specified language folder.
    
-   `For example- If you write a program in C then add your program file in C folder`
+   `For example- If you write a program in C then add your program file in C folder` 
+
+3. **Add your name and your Github UserName in `Contributors.md` in the give format** 👇
+    
+  | Name | Github UserName |
+  | -----| ---------------|
+  | Your Name | Your Github UserName |  
    
-3. Create a Pull Request and wait patiently for your pull request to be merged.
-4. Thank You! and Happy Contributing.
+4. Create a Pull Request and wait patiently for your pull request to be merged.
+5. Thank You! and Happy Contributing.
 
 ___________________________________________________________________________________________________________________________________________________________________________________
 
