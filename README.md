@@ -43,13 +43,6 @@
 
 ---
 
-
-
-| Serial No. | Repository| Link to Issue  | Language |
-|:--|:--|:--|:--|
-| 1. | [C](https://github.com/Aniruddha775/Hacktoberfest2021-Contribute/tree/main/c) | [Add More Answers in C ](https://github.com/Aniruddha775/Hacktoberfest2021-Contribute/issues)  | `C`  |
-
-
 # Steps for Contributing:
 
 1. Fork this Repo and star it.
