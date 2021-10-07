@@ -1,3 +1,4 @@
+/* c program to find prime no. */
 #include <stdio.h> 
 
 int main() {
