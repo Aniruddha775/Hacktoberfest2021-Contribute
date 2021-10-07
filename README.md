@@ -22,10 +22,9 @@
 
 <a href="https://github.com/Aniruddha775/Hacktoberfest2021-Contribute/pulls"><img src="https://github.com/Aniruddha775/Hacktoberfest2021-Contribute" alt="Pull Requests Badge"/></a>
 <a href="https://github.com/Aniruddha775/Hacktoberfest2021-Contribute/graphs/contributors"><img alt="GitHub contributors" src="https://img.shields.io/github/contributors/Aniruddha775/Hacktoberfest2021-Contribute?color=2b9348"></a>
-
 </div>
 
-<br>
+
 
 ### 🗣 Hacktoberfest encourages participation in the open source community, which grows bigger every year. Complete the 2021 challenge and earn a limited edition T-shirt✌️.
 
