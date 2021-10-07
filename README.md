@@ -3,8 +3,8 @@
 </div>
 
 
-<h1 align="center" style="color:blue;">Welcome To</h1>
-<h1 align="center" style="background-color:black;">🎃 Hacktoberfest Repository</h1>
+<h1 align="center">Welcome To</h1>
+<h1 align="center">🎃 Hacktoberfest Repository</h1>
 
 **This is a Hacktoberfest Repo and it is for begineer/intermediate programmers to contribute in this repository and make 4PR's to earn a T-shirt.**
 
@@ -42,6 +42,12 @@
 - Don't use filthy words and be welcome for beginners and other people in this community.
 
 ---
+
+
+
+| Serial No. | Repository| Link to Issue  | Language |
+|:--|:--|:--|:--|
+| 1. | [C](https://github.com/Aniruddha775/Hacktoberfest2021-Contribute/tree/main/c) | [Add More Inspirational Quotes](https://github.com/Aniruddha775/Hacktoberfest2021-Contribute/issues)  | `C`  |
 
 
 # Steps for Contribution
