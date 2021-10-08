@@ -1,0 +1,10 @@
+sentence=input("Enter Sentence")
+# Using loop
+count_words=0
+for i in sentence:
+    count_words+=1
+print("No of words in your sentence is ",count_words)
+
+# Using split function and len funtion
+print("No of words in your sentence is ",len(sentence.split()))
+
