@@ -6,6 +6,7 @@ void main(){
 	int word_count;
 	int i;
 	
+	
 	printf("Enter the word");
 	scanf("%[^\n]s",word);
 	
