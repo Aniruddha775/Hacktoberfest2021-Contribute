@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Color Flipper</title>
+</head>
+<style>
+    *{
+        padding: 0px;
+        margin: 0px;
+        box-sizing: border-box;
+    }
+    body{
+        background-color: #F1f5f8;
+    }
+    main{
+        /* min-height: calc(150vh - 8rem); */
+        min-height: 700px;
+        display: grid;;
+        place-items: center;
+    }
+    .container{
+        text-align: center;
+    }
+    .container h1{
+        font-weight: bolder;
+        color: white;
+        padding: 10px 30px 10px 30px;
+        margin: 10px;
+        border-radius: 10px;
+        background-color:black;
+        /* text-align: center; */
+        font-size: 40px;
+        font-family: 'Courier New', Courier, monospace;
+        /* display:inline-table; */
+    }
+    #btn{
+        padding: 15px 20px 15px 20px;
+        margin: 10px;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        background-color: transparent;
+        font-size: 15px;
+        border-radius: 20px;
+        font-weight: bold;
+        letter-spacing: 3px;
+        cursor: pointer;
+        box-shadow: 2px 3px black;
+        display: inline-block;
+        transition: all 0.3s linear;
+    }
+    #btn:hover{
+        background-color: rgba(0, 0, 0, 0.432);
+        color: white;
+    }
+    /* .page{
+        background-color:white;
+        box-shadow: 2px 3px 10px black;
+        height: 80px;
+    } */
+    h2{
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        font-weight: bolder;
+        padding: 20px;
+        margin: 10px;
+    }
+    /* .nav-links{
+        list-style: none;
+        display: flex;
+    } */
+    .list{
+        padding: 10px;
+        margin: 10px;
+        border:10px;
+        border-radius: 10px;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        font-weight: bolder;
+        font-style: oblique;
+    }
+    .color{
+        color: rgb(31, 98, 121);
+    }
+    nav {
+  background-color: white;
+  height: 80px;
+  /* display: grid; */
+  /* align-items: center; */
+  box-shadow: 2px 3px 10px black;
+}
+.nav-center {
+  width: 90vw;
+  /* max-width: var(--fixed-width); */
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.nav-links{
+        list-style: none;
+        display: flex;
+    }
+</style>
+<body>
+    <!-- <div class="page"> -->
+        <nav>
+            <div class="nav-center">
+                <h2>Color Flipper</h2>
+            <ul class="nav-links">
+                <li class="list">Simple</li>
+                <li class="list">Hex</li>
+            </ul>
+            </div>
+        </nav>
+    <!-- </div> -->
+        <main>
+    <div class="container"><h1> Background Color: <span class="color">#f1f5f8</span> </h1>
+    <button id="btn">CLICK NOW</button>
+    </div>
+</main>
+</div>
+<script>
+    const hex = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, "A", "B", "C", "D", "E", "F"];
+const btn = document.getElementById("btn");
+const color = document.querySelector(".color");
+
+btn.addEventListener("click", function() {
+    let hexColor = "#";
+    for(let i=0 ; i<6; i++) {
+        hexColor += hex[getRandomNumber()];
+    }
+
+    color.textContent = hexColor;
+    document.body.style.backgroundColor = hexColor;
+});
+
+function getRandomNumber() {
+    return Math.floor(Math.random() * hex.length);
+}
+</script>
+</body>
+</html>
