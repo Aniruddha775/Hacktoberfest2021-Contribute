@@ -3,7 +3,7 @@ using namespace std;
 int main() 
 {
     int N;
-    N = 10
+    N = 10;
     int hn=(N+1)/2;
     int equi,equj;
     for(int i=1;i<=N;i++)
