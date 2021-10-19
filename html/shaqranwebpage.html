@@ -14,7 +14,7 @@
         }
 
         body{
-            font-family:Verdana, Geneva, Tahoma, sans-serif
+            font-family:Verdana, Geneva, Tahoma, sans-serif;
         }
         .main__wrapper{
             width: 100%;
@@ -27,6 +27,7 @@
             background:rgb(0,0,0,0.4);
             padding:1rem;
             text-align: center;
+            
         }
         h3{
             margin-top: 2.5rem;
@@ -69,17 +70,24 @@
             background: rgb(255, 255, 255,0.2);
            margin-right: 2rem;
            padding: 0.5rem;
+           cursor: pointer;
+        }
+        li:hover{
+            cursor: pointer;
+            color:black;
+            background-color:crimson;
         }
         @media only screen and (min-width: 720px ) {
             li{
                 max-width: 15%
             }
         }
+        
     </style>
 </head>
 <body>
     <div class="main__wrapper">
-        <h1>Hello my name is Bhat Shaqran.</h1>
+        <marquee behaviour="slide" direction="left"><h1>Hello my name is Bhat Shaqran.</h1></marquee>
         <h3>And this is my first <span>PR</span>  for <span class="org">Hacktoberfest!</span> </h3>
         <div class="about__wrapper">
             <p>Hacktoberfest is a month-long celebration of open-source software by DigitalOcean 
